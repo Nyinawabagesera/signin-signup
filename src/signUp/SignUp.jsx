@@ -7,7 +7,7 @@ import { DevTool } from "@hookform/devtools";
 
 const Signup = () => {
   const { register, handleSubmit, control, formState: { errors } } = useForm();
-  const { signup, currentUser } = useAuth();
+  const { signup} = useAuth();
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
