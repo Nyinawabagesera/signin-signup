@@ -1,0 +1,25 @@
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    color: inherit; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 50px; 
+  }
+  
+  .theme-toggle i {
+    margin-right: 8px; 
+  }
+  
+
+  .theme-toggle i {
+    font-size: 20px; 
+  }  
